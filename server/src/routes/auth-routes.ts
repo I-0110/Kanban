@@ -15,6 +15,12 @@ export const login = async (req: Request, res: Response) => {
     return res.status(401).json({ message: 'Incorrect Username'});
   }
 
+  const passwordIsValid = await bcrypt.compare (password, user.password);
+
+  if (!passwordIsValid) {
+    return res.status(401).json ({ message: 'Incorrect Password' });
+  }
+
   const secretKey = process.env.JWT_SECRET_KEY || ''; 
 
   const token = jwt.sign({ username }, secretKey, { expiresIn: '1hr' });
