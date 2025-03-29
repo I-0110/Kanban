@@ -70,7 +70,7 @@ You will need to:
 
 * Add authentication to the API routes in `server/src/routes/index.ts` done
 
-* Complete the login method in `client/src/api/authAPI.tsx`
+* Complete the login method in `client/src/api/authAPI.tsx` 
 
 * Complete the methods of the `AuthService` in `client/src/utils/auth.ts`
 
