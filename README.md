@@ -64,9 +64,9 @@ You will need to:
 
   * A secret key for the JWT (this can be any random string)
 
-* Complete the `authenticateToken` method in `server/src/middleware/auth.ts`
+* Complete the `authenticateToken` method in `server/src/middleware/auth.ts` done
 
-* Complete the login method in `server/src/routes/auth-routes.ts`
+* Complete the login method in `server/src/routes/auth-routes.ts` 
 
 * Add authentication to the API routes in `server/src/routes/index.ts`
 
