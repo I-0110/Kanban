@@ -72,7 +72,7 @@ You will need to:
 
 * Complete the login method in `client/src/api/authAPI.tsx` done 
 
-* Complete the methods of the `AuthService` in `client/src/utils/auth.ts`
+* Complete the methods of the `AuthService` in `client/src/utils/auth.ts` done
 
 You can refer to the [Deploy with Render and PostgreSQL guide](https://coding-boot-camp.github.io/full-stack/render/deploy-with-render-and-postgresql) and the [Render documentation on setting environment variables](https://docs.render.com/configure-environment-variables) as needed.
 
